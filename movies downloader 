@@ -1,0 +1,31 @@
+import requests
+
+def search_movies(query):
+    # Search for movies using YTS API
+    url = f"https://yts.mx/api/v2/list_movies.json?query_term={query}"
+    response = requests.get(url)
+    data = response.json()
+
+    # Extract movie details
+    if "movies" in data and data["movies"]:
+        movies = data["movies"]
+        for i, movie in enumerate(movies):
+            print(f"{i + 1}. {movie['title']} ({movie['year']})")
+    else:
+        print("No movies found.")
+
+def download_movie(torrent_url):
+    # Implement your download logic here
+    # You can use libraries like 'requests' or 'torrentool' to download torrents
+    # Example: download the torrent file from the provided URL
+
+    # Replace this with your actual download code
+    print(f"Downloading movie from {torrent_url}...")
+
+if __name__ == "__main__":
+    search_query = input("Enter a movie title: ")
+    search_movies(search_query)
+
+    movie_choice = int(input("Enter the number of the movie you want to download: "))
+    selected_movie = movies[movie_choice - 1]
+    download_movie(selected_movie["torrents"][0]["url"])
