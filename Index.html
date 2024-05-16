@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal website</title>
+    <style>
+        body {
+            display: flex;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #ff0099, #493240);
+            color: white;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            position: fixed;
+            height: 100%;
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 20px 0;
+        }
+
+        .sidebar ul li a {
+            color: blue;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            min-height: 100vh;
+            width: 100%;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        header nav a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h1, h2 {
+            color: #FFD700;
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px 0;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">About</a></li>
+            <li><a href="#section3">Gallery</a></li>
+            <li><a href="#section4">Contact</a></li>
+        </ul>
+    </div>
+    
+    <div class="content">
+        <header>
+            <h1>Welcome to My Web Page</h1>
+            <nav>
+                <a href="https://www.facebook.com/profile.php?id=100071128190996&mibextid=ZbWKwL" target="_blank">Facebook</a>
+                <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/arjunpandey179?igsh=MTN0YWgxOWJ1ZDZwMA==" target="_blank">Instagram</a>
+            </nav>
+        </header>
+
+        <section id="section1">
+            <h2>Home</h2>
+            <p>++++++++</p>
+      <p>++++++++</p>
+        </section>
+        
+        <section id="section2">
+            <h2>About</h2>
+
+
+            <p>°This is all created by me</p>
+
+     <p> °Using many programming languages</p>
+
+        </section>
+
+        
+        <section id="section3">
+            <h2>Photos</h2>
+            <p>Here are some images </p>
+            <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZxPFz7c9S9Vmr2w2sLejWne_SF462qTg9_8gGyQK8g9IWdzNddKBegiRcEh_N4PybZijdauslF2BG0ZSr6CHHQDmzokSfSZBI=s1600-rw-v1" alt="Image 1">
+            <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZaF86SmnZ8o9YB6zQw_Jich2kkYXrbPqzX37jssoEKCnEmCxKQ62yeKamzTlEYoFiwcNVUm96X0u8uwDfsMvi8HP_KFfYuKYg=s2560" alt="Image 2">
+        </section>
+        
+        <section id="section4">
+            <h2>Contact</h2>
+            <p>Get in touch with me through social media links above or add a contact form here.</p>
+        </section>
+    </div>
+
+    <script>
+        // Add any necessary JavaScript here. 
+        // For example, you can add a toggle function for the sidebar if making it responsive.
+    </script>
+</body>
+</html>
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Web Page</title>
+    <style>
+        body {
+            display: rapid;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #ff0099, #493240);
+            color: white;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #4CAF50;
+            color: black;
+            padding: 0px;
+            position: fixed;
+            height: 0%;
+            left: -250px;
+            transition: left 0.3s ease;
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 28px 0;
+        }
+
+        .sidebar ul li a {
+            color: blue;
+            text-decoration: none;
+            font-size: 36px;
+        }
+
+        .content {
+            margin-left: 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            min-height: 100vh;
+            width: 100%;
+            transition: margin-left 0.3s ease;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        header nav a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h1, h2 {
+            color: #FFD700;
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px 0;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+
+        .toggle-btn {
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1;
+        }
+
+        .sidebar.active {
+            left: 0;
+        }
+
+        .content.shifted {
+            margin-left: 250px;
+        }
+    </style>
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+    
+    <div class="sidebar" id="sidebar">
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="#section1" onclick="toggleSidebar()">Home</a></li>
+            <li><a href="content://com.termux.documents/document/%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2Fpartial.html" onclick="toggleSidebar()">About</a></li>
+            <li><a href="content://com.termux.documents/document/%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2Farjun.html" onclick="toggleSidebar()">Another page</a></li>
+            <li><a href="content://com.termux.documents/document/%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2Fslide.html" onclick="toggleSidebar()">Slide</a></li>
+        </ul>
+    </div>
+    
+    <div class="content" id="content">
+        <header>
+            <h1>DUE TO FREE TIME CREATED BY SUMIT KUMAR</h1>
+            <nav>
+                <a href="https://www.facebook.com/profile.php?id=100037200743840&mibextid=ZbWKwL" target="_blank">Facebook</a>
+                <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/sumit__k.u.m.a.r?igsh=MW1veGY2cjJ4MHZscw==" target="_blank">Instagram</a>
+            </nav>
+        </header>
+
+        <section id="section1">
+            <h2>Home</h2>
+            <p>Whatsapp no.=7060727690</p>
+        </section>
+        
+        <section id="section2">
+            <h2></h2>
+            <p></p>
+        </section>
+        
+        <section id="section3">
+            <h2>Gallery</h2>
+            <p>°Some recent memories</p>
+           <p>°created by Sumit Kumar</p>
+            <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbWOLrsZzV-veEKi6hKY_S1nZBkkxfUUNEIB44M23rbCMMUnremN5aG16qUjIRqpWa9HPlugriOm407z-b-vnXoRgUifhUzVuQ=s2560" alt="Image 1">
+            <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZHkAWGkWZG73WC_ABta0F0WPb4zM6Eyyygih9Uo-g6HIMX2FWt7aapKOSfQZvobJdRzOpJG0pde5baprLv7UnqSa_XBaRxx0w=s1600-rw-v1" alt="Image 2">
+        </section>
+        
+        <section id="section4">
+            <h2>Contact</h2>
+            <p>Get in touch with me through social media links above or add a contact form here.</p>
+        </section>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById('sidebar');
+            var content = document.getElementById('content');
+            sidebar.classList.toggle('active');
+            content.classList.toggle('shifted');
+        }
+    </script>
+</body>
+</html>
